@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$('document').ready(function(){
     let btn = $('<button>Click Me!</button>')
     $('body').append(btn);
     $(btn).click(function () {
